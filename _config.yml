@@ -1,0 +1,47 @@
+title: Peptide Track+ Documentation
+description: User guide and documentation for Peptide Track+
+remote_theme: just-the-docs/just-the-docs
+
+url: https://djhamilton872.github.io
+baseurl: /peptide-docs
+
+# Enable search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Aux links (top right)
+aux_links:
+  "Go to App":
+    - "https://peptides.hamiltonsweb.com"
+
+aux_links_new_tab: true
+
+# Footer
+footer_content: "Copyright &copy; 2025 Peptide Track+. All rights reserved."
+
+# Color scheme
+color_scheme: light
+
+# Logo (optional)
+# logo: "/assets/images/logo.png"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Navigation structure
+nav_sort: case_insensitive
+
+# Last edit timestamp
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+
+# GitHub link (edit this page)
+gh_edit_link: false
