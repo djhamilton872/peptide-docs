@@ -2,8 +2,8 @@ title: Peptide Track+ Documentation
 description: User guide and documentation for Peptide Track+
 remote_theme: just-the-docs/just-the-docs
 
-url: https://djhamilton872.github.io
-baseurl: /peptide-docs
+url: https://docs.hamiltonsweb.com
+baseurl: ""
 
 # Enable search
 search_enabled: true
