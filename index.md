@@ -48,4 +48,23 @@ Peptide Track+ is a comprehensive web application for tracking your peptide ther
 
 ---
 
-*Peptide Track+ v2.28.0*
+## Legal
+
+| Document | Description |
+|:---------|:------------|
+| [Terms of Service]({% link terms-of-service.md %}) | Rules and conditions for using the service |
+| [Privacy Policy]({% link privacy-policy.md %}) | How we collect, use, and protect your data |
+| [Medical Disclaimer]({% link medical-disclaimer.md %}) | Important health and liability information |
+
+---
+
+## Scheduled Maintenance
+
+Routine maintenance is performed during low-usage periods:
+- **Primary Window:** Sundays, 10:00 PM - 11:00 PM Central Time
+
+We will notify users in advance of any extended maintenance.
+
+---
+
+*Peptide Track+ v2.29.x*
