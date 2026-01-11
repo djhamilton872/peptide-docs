@@ -1,22 +1,24 @@
----
-layout: default
-title: User Manual
-nav_order: 3
----
+# TrackMe+ User Manual
 
-# User Manual
-{: .fs-9 }
-
-Complete documentation for all Peptide Track+ features.
-{: .fs-6 .fw-300 }
+**Version:** 2.43.1
+**URL:** https://trackmeplus.com
 
 ---
 
 ## Table of Contents
-{: .no_toc .text-delta }
 
-1. TOC
-{:toc}
+1. [Getting Started](#getting-started)
+2. [Dashboard](#dashboard)
+3. [Compounds](#compounds)
+4. [Doses](#doses)
+5. [Weight Tracking](#weight-tracking)
+6. [Lab Results](#lab-results)
+7. [Budget](#budget)
+8. [Vendors](#vendors)
+9. [Supplies](#supplies)
+10. [Settings](#settings)
+11. [Subscription Plans](#subscription-plans)
+12. [Features Reference](#features-reference)
 
 ---
 
@@ -24,11 +26,17 @@ Complete documentation for all Peptide Track+ features.
 
 ### Creating an Account
 
-1. Navigate to [peptides.hamiltonsweb.com](https://peptides.hamiltonsweb.com)
+1. Navigate to https://trackmeplus.com
 2. Click **Sign Up** on the login screen
 3. Enter your name, email address, and password
 4. Click **Create Account**
-5. You'll be automatically logged in
+5. You'll be automatically logged in to your new account
+
+### Logging In
+
+1. Enter your email address
+2. Enter your password
+3. Click **Log In**
 
 ### Password Reset
 
@@ -40,43 +48,80 @@ If you forget your password:
 
 ---
 
+## AI Smart Lookup (New in v2.42+)
+
+TrackMe+ includes intelligent auto-complete that helps you enter compound and vendor names accurately.
+
+### How It Works
+
+When adding a new compound:
+
+1. **Compound Name Field** - Start typing and suggestions appear
+   - Suggestions come from our master database of 47+ compounds
+   - Shows match confidence (e.g., "95% match")
+   - Displays category (GLP-1, Peptide, Hormone, etc.)
+   - Click a suggestion to auto-fill
+
+2. **Vendor Name Field** - Start typing and vendor suggestions appear
+   - Suggestions from our verified vendor database
+   - Shows vendor category (Pharmacy, Domestic Supplier, etc.)
+   - **Auto-fills website** - When you select a vendor, the website field is automatically populated
+
+### AI Suggestions Badge
+
+Look for the "+ AI Suggestions" indicator below input fields. This shows the smart lookup is active and ready to help.
+
+### Tips
+
+- Type at least 2 characters to trigger suggestions
+- Common abbreviations work (e.g., "BPC" finds "BPC-157")
+- Misspellings are often corrected (e.g., "tirzepatid" finds "Tirzepatide")
+- You can still type custom names if the suggestion doesn't match
+
+---
+
 ## Dashboard
 
 The Dashboard is your home screen, providing an overview of your peptide tracking activity.
 
-### Stats Cards
+[screenshot placeholder: Dashboard overview]
 
-Quick metrics at the top of your dashboard:
-- **Total Compounds** - Number of compounds you're tracking
-- **Total Doses Logged** - All-time dose count
-- **This Week's Doses** - Doses logged this week
-- **Total Spent** - Sum of compound costs
+### What You'll See
+
+- **Welcome Message** - Personalized greeting with your name
+- **Stats Cards** - Quick metrics including:
+  - Total Compounds
+  - Total Doses Logged
+  - This Week's Doses
+  - Total Spent on Compounds
+- **Today's Schedule** - Your doses scheduled for today
+- **Usage Widget** - Shows your plan limits (compounds, lab results)
+- **Dose Timer** - Timer for spacing doses
+- **Recent Activity** - Your 5 most recent completed doses
 
 ### Today's Schedule Widget
 
-Shows all doses scheduled for today based on your compound settings:
+The schedule shows all doses due today based on your compound settings:
 
-| Column | Description |
-|:-------|:------------|
-| Time | When the dose is scheduled |
-| Compound | Name of the peptide |
-| Type | Injection, drops, or pills |
-| Units | Calculated syringe units (for vials) |
-| Dose | Amount and unit (e.g., "5 mg") |
-| Done | Checkbox to mark complete |
+- **Time** - When the dose is scheduled
+- **Compound** - Name of the peptide
+- **Type** - Shows both form and route, e.g., "Vial (Injection)", "Drops (Sublingual)", "Pills (Oral)"
+- **Units** - Calculated injection units (for vials)
+- **Dose** - Amount and unit (e.g., "5 mg")
+- **Done** - Checkbox to mark as complete (separate checkbox for each scheduled dose time)
+
+**Multi-Dose Support:**
+If a compound is scheduled multiple times per day, each dose time gets its own checkbox. For example, a compound taken twice daily at 8 AM and 8 PM will show two separate rows, each with its own Done checkbox.
+
+**Future Dates:**
+- You can view future dates using the date picker
+- Future doses are shown but cannot be marked complete until that day arrives
+- Compounds with future start dates show "starts in X days"
 
 **Actions:**
 - Click the **date picker** to view other days
 - Click **Print** to print the schedule
-- Click **Email** to send schedule to yourself
-
-### Dose Timer
-
-Use to properly space peptide doses:
-1. Click a preset time (5, 10, 15, or 30 minutes)
-2. Or enter a custom time (1-120 minutes)
-3. Timer counts down with audio alert when complete
-4. Persists even if you close the browser
+- Click **Email** to send the schedule to yourself
 
 ---
 
@@ -84,46 +129,142 @@ Use to properly space peptide doses:
 
 Manage all your peptide compounds in one place.
 
+[screenshot placeholder: Compounds list view]
+
 ### Adding a Compound
 
-**Required Fields:**
-- **Name** - e.g., "Semaglutide"
-- **Type** - Vial, Pills, or Drops
-- **Status** - Active or Completed
-- **Dose Amount** - e.g., "5"
-- **Dose Unit** - mg or mcg
-- **Frequency** - Daily, Weekly, etc.
-- **Time of Day** - When to take it
+1. Click **Add Compound**
 
-**Optional Fields:**
-- **Quantity** - Vial size (e.g., "10 mg")
-- **Reconstitution** - mL of BAC water added
-- **Concentration** - For drops (e.g., "20mg/mL")
-- **Start Date** - When you began
-- **Cycle Duration** - For cycling compounds
-- **Vendor** - Where purchased
-- **Cost** - Price paid
-- **Notes** - Additional information
+**Smart Auto-Complete:**
+As you type the compound name, suggestions will appear from our database. Select a suggestion to ensure consistent naming and get helpful defaults like typical dosing ranges. The same applies to the Vendor Name field - select a vendor to auto-fill their website.
 
-### Compound Types
+2. Fill in the required fields:
+   - **Name** - e.g., "Semaglutide"
+   - **Form** - Vial (Injectable), Drops, Pills, Patches, Powder, or Cream
+   - **Status** - Active, On Hold, or Completed
+   - **Dose Amount** - e.g., "5"
+   - **Dose Unit** - mg, mcg, or mL
+   - **Frequency** - Daily, Twice Daily, Weekly, etc.
+   - **Time of Day** - When to take it (supports multiple times)
 
-| Type | Description | Unit Calculation |
-|:-----|:------------|:-----------------|
-| **Vial** | Injectable peptide | (dose_mg / (total_mg / reconstitution_ml)) × 100 |
-| **Drops** | Sublingual drops | (dose_mg / concentration_mg_ml) × 20 |
-| **Pills** | Oral tablets/capsules | N/A |
+3. Optional fields:
+   - **Quantity** - Vial size (e.g., "10 mg")
+   - **Reconstitution** - mL of BAC water added (for lyophilized peptides)
+   - **Concentration** - For drops (e.g., "20mg/mL")
+   - **Start Date** - When you began (or will begin) the compound
+   - **Cycle Duration** - For cycling compounds
+   - **Vendor** - Where you purchased it
+   - **Cost** - Price paid
+   - **Vials on Hand** - How many vials you have
+   - **Notes** - Any additional information
+
+4. Click **Save Compound**
+
+### Compound Types (Forms)
+
+| Form | Route | Description | Unit Calculation |
+|------|-------|-------------|------------------|
+| **Vial (Injectable)** | Injection | Lyophilized or pre-mixed injectable | See below |
+| **Drops** | Sublingual | Liquid drops under tongue | (dose_mg / concentration_mg_ml) × 20 = drops |
+| **Pills** | Oral | Tablets or capsules | N/A |
+| **Patches** | Transdermal | Skin patches | N/A |
+| **Powder** | Varies | Raw powder | N/A |
+| **Cream** | Topical | Topical cream | N/A |
+
+### Compound Status
+
+Each compound has a status that controls whether it appears on your dosing schedule:
+
+| Status | Badge Color | On Schedule? | Use When |
+|--------|-------------|--------------|----------|
+| **Active** | Green | Yes | Currently taking this compound |
+| **On Hold** | Orange | No | Have it, waiting to start |
+| **Completed** | Gray | No | Finished with this compound |
+
+**On Hold** is perfect for compounds you've purchased but aren't ready to start yet - for example, if you're waiting to finish your current supply of a similar compound first.
+
+To change status:
+1. Go to **Compounds**
+2. Click **Edit** on the compound
+3. Select the new status from the dropdown
+4. Click **Save**
+
+You can filter the compound list by status using the filter buttons at the top of the Compounds page.
+
+### Pre-Mixed (Oil-Based) Vials
+
+For pre-constituted injectable compounds like Testosterone Cypionate, Deca, or other oil-based medications:
+
+1. Select **Vial (Injectable)** as the Form
+2. Check the **Pre-mixed (oil-based, like Testosterone)** checkbox
+3. Enter the **Concentration (mg/mL)** - e.g., 200 for 200mg/mL Testosterone
+4. Enter the **Vial Size (mL)** - e.g., 1 for a 1mL vial, 10 for a 10mL vial
+5. Set your **Dose Amount** in mL - e.g., 0.6 mL weekly
+
+The app will correctly calculate your doses and days supply based on the vial size and your dosing schedule.
+
+### Compound Grouping (Variants)
+
+When you have multiple vials of the same compound from different vendors or in different sizes, you can group them together:
+
+**When to Use:**
+- Multiple vials of BPC-157 from different vendors
+- Same peptide in different sizes (5mg vs 10mg vials)
+- Tracking which vial you're currently using
+
+**How to Enable:**
+1. When adding/editing a compound, you'll see a **Compound Group** field
+2. Enter the base compound name (e.g., "BPC-157")
+3. Compounds with the same group name are displayed together
+
+**Setting the Active Vial:**
+1. Click on a grouped compound card to expand it
+2. Click **Set Active** on the vial you're currently using
+3. Only the active vial appears on your dosing schedule
+
+**Group Benefits:**
+- See total inventory across all variants
+- Low stock alerts based on total group inventory
+- Easy switching between vials when one runs out
+
+### Future Start Dates
+
+You can set a start date in the future for compounds you haven't started yet:
+
+1. Enter a future date in the **Start Date** field
+2. The compound will show "starts in X days" on the dashboard
+3. The compound will NOT appear on the schedule until the start date arrives
+4. Once the start date arrives, doses automatically appear on your schedule
+
+### Inventory Display
+
+Each compound card shows:
+- **Doses remaining** - Approximate number of doses left (e.g., "~20 doses")
+- **Days supply** - How many days until you run out (e.g., "~140 days")
+
+Both values are displayed: "~20 doses / ~140 days"
 
 ### Frequency Options
 
-| Frequency | Description |
-|:----------|:------------|
-| Daily | Once per day |
-| Twice Daily | Two times per day |
-| Three Times Daily | Three times per day |
-| Every Other Day | Alternating days |
-| Every X Days | Custom interval |
-| Weekly | Once per week |
-| Custom Days | Select specific days |
+- **Daily** - Once per day
+- **Twice Daily** - Two times per day
+- **Three Times Daily** - Three times per day
+- **Every Other Day** - Alternating days
+- **Every X Days** - Custom interval (e.g., every 3 days)
+- **Weekly** - Once per week
+- **Custom Days** - Select specific days of the week
+
+### Editing a Compound
+
+1. Find the compound in the list
+2. Click the **Edit** button
+3. Make your changes
+4. Click **Save Compound**
+
+### Deleting a Compound
+
+1. Click the **Delete** button
+2. Confirm the deletion
 
 ---
 
@@ -131,34 +272,135 @@ Manage all your peptide compounds in one place.
 
 Log and track all your dose administrations.
 
+[screenshot placeholder: Doses view]
+
 ### Logging a Dose
 
-**From Today's Schedule (Easiest):**
-- Check the **Done** checkbox next to any scheduled dose
-- Automatically logged with current time
+**From Today's Schedule:**
+1. Check the **Done** checkbox next to any scheduled dose
+2. The dose is automatically logged with the current time
 
-**Manual Entry:**
+**Multi-Dose Per Day:**
+If a compound is scheduled multiple times per day (e.g., Twice Daily at 8 AM and 8 PM), each dose time appears as a separate row with its own checkbox. This allows you to:
+- Mark each dose individually as complete
+- Track exactly which doses you've taken
+- See "Dose 1", "Dose 2", etc. for count-based matching
+
+**From the Doses Tab:**
 1. Click **Add Dose**
 2. Select the **Compound**
-3. Enter **Date** and **Time**
-4. Enter **Dose Amount** and **Unit**
-5. Optional: Add injection site and notes
+3. Enter the **Date** and **Time**
+4. Enter the **Dose Amount** and **Unit**
+5. Optionally add:
+   - **Injection Site** - Where you administered it
+   - **Notes** - Any observations
 6. Click **Save Dose**
 
-### Dose History
+### Future Dates
 
-Doses are organized by time period:
+- You can view future dates on the schedule using the date picker
+- Future doses are displayed but **cannot be marked complete** until that day arrives
+- This prevents accidentally logging doses ahead of time
+
+### Viewing Dose History
+
+The Doses tab shows all logged doses organized by time period:
 - Morning (6 AM - 12 PM)
 - Afternoon (12 PM - 5 PM)
 - Evening (5 PM - 9 PM)
 - Night (9 PM - 6 AM)
 
+### Dose Timer
+
+Use the dose timer to space your peptide doses properly:
+
+1. Click a preset time (5, 10, 15, or 30 minutes)
+2. Or enter a custom time (1-120 minutes)
+3. The timer counts down
+4. You'll receive a notification when complete (if enabled)
+
+**Timer Features:**
+- Pause/Resume capability
+- Persists across page refreshes
+- Audio alert when complete
+- Browser notification (if permitted)
+
 ### Exporting Doses
 
-1. Click **Export** in Doses view
-2. Choose format: **PDF** or **CSV**
+1. Click **Export** in the Doses view
+2. Choose your format:
+   - **PDF** - Formatted report
+   - **CSV** - Spreadsheet format
 3. Select date range
 4. Download the file
+
+---
+
+## Weight Tracking
+
+Track your weight over time to monitor the effects of your peptide therapy.
+
+[screenshot placeholder: Weight tracking view]
+
+### Accessing Weight Tracking
+
+Click **Weight** in the sidebar navigation to access the weight tracking feature.
+
+### Logging Weight
+
+1. Click **Log Weight**
+2. Enter the **Date** (defaults to today)
+3. Enter your **Weight**
+4. Select the **Unit** (lbs or kg)
+5. Optionally add **Notes** (e.g., "After breakfast", "Morning weigh-in")
+6. Click **Save**
+
+Your preferred unit (lbs or kg) is remembered for future entries.
+
+### Stats Cards
+
+The weight tracking page displays four summary cards:
+
+| Card | Description |
+|------|-------------|
+| **Current** | Your most recent weight entry (with unit) |
+| **Change** | Difference from your starting weight (green = loss, red = gain) |
+| **Lowest** | Your lowest recorded weight |
+| **Highest** | Your highest recorded weight |
+
+### Weight Trend Chart
+
+When you have 2 or more entries, a line chart displays your weight trend:
+- Shows the last 30 entries
+- X-axis: Date range
+- Y-axis: Weight values
+- Points are connected to show the trend
+- Hover over points to see exact values
+
+### Weight History Table
+
+All your weight entries are displayed in a table showing:
+- **Date** - When the weight was recorded
+- **Weight** - Value and unit (e.g., "185.5 lbs")
+- **Notes** - Any notes you added
+- **Actions** - Edit or Delete buttons
+
+### Editing a Weight Entry
+
+1. Find the entry in the history table
+2. Click the **Edit** button
+3. Make your changes
+4. Click **Update**
+
+### Deleting a Weight Entry
+
+1. Find the entry in the history table
+2. Click the **Delete** button
+3. Confirm the deletion
+
+### One Entry Per Day
+
+The system allows one weight entry per day. If you log weight for a date that already has an entry, the existing entry is updated with the new value.
 
 ---
 
@@ -166,17 +408,25 @@ Doses are organized by time period:
 
 Track your lab tests and monitor biomarkers over time.
 
+[screenshot placeholder: Lab Results view]
+
 ### Adding Lab Results
 
 1. Click **Add Lab Result**
-2. Enter: Test Date, Test Name, Result Value, Unit
-3. Optional: Reference Range, Lab Name, Notes
-4. Click **Save Lab Result**
+2. Enter the **Test Date**
+3. Enter the **Test Name** (e.g., "IGF-1", "A1C", "Testosterone")
+4. Enter the **Result Value**
+5. Enter the **Unit** (e.g., "ng/mL", "%")
+6. Optionally add:
+   - **Reference Range** - Normal range for comparison
+   - **Lab Name** - Where the test was performed
+   - **Notes** - Observations or context
+7. Click **Save Lab Result**
 
-### Lab Result Limits
+### Lab Result Limits by Plan
 
 | Plan | Annual Lab Results |
-|:-----|:-------------------|
+|------|-------------------|
 | Free | 10 per year |
 | Standard | 50 per year |
 | Premium | Unlimited |
@@ -187,112 +437,286 @@ Track your lab tests and monitor biomarkers over time.
 
 Track spending on your peptide therapy.
 
-### Categories
+[screenshot placeholder: Budget view]
 
-- Compounds
-- Supplies
-- Lab Tests
-- Consultations
-- Shipping
-- Other
+### Adding Budget Entries
+
+1. Click **Add Budget Entry**
+2. Select the **Category**:
+   - Compounds
+   - Supplies
+   - Lab Tests
+   - Consultations
+   - Shipping
+   - Other
+3. Enter the **Amount Spent**
+4. Enter the **Date**
+5. Add optional **Description**
+6. Click **Save Entry**
+
+### Budget Overview
+
+- **Total Spent** - Sum of all budget entries
+- **By Category** - Breakdown of spending
+- **Monthly Trend** - Spending over time
 
 ---
 
 ## Vendors
 
-Manage your peptide suppliers with contact info, websites, and notes.
+Manage your peptide suppliers.
+
+[screenshot placeholder: Vendors view]
+
+### Adding a Vendor
+
+1. Click **Add Vendor**
+2. Enter vendor details:
+   - **Name** (required)
+   - **Website URL**
+   - **Email**
+   - **Phone**
+   - **Notes**
+3. Click **Save Vendor**
+
+### Vendor Information
+
+Store important details about each supplier:
+- Contact information
+- Website links
+- Notes about quality, shipping times, etc.
+
+### Vendor Auto-Fill
+
+When adding a compound, typing in the Vendor Name field shows suggestions from our verified vendor database. Selecting a vendor automatically populates:
+- Vendor Name (standardized spelling)
+- Vendor Website (if available in our database)
+
+This saves time and ensures you have accurate vendor contact information.
 
 ---
 
 ## Supplies
 
-Track your peptide-related supplies inventory:
+Track your peptide-related supplies and inventory.
+
+[screenshot placeholder: Supplies view]
+
+### Adding Supplies
+
+1. Click **Add Supply**
+2. Enter supply details:
+   - **Name** - e.g., "Insulin Syringes"
+   - **Category** - Syringes, Needles, BAC Water, etc.
+   - **Quantity** - How many you have
+   - **Cost** - Price paid
+   - **Expiration Date** - When it expires
+   - **Notes** - Additional info
+3. Click **Save Supply**
+
+### Supply Categories
+
 - Syringes
 - Needles
 - BAC Water
 - Alcohol Swabs
 - Sharps Container
-- Storage containers
+- Storage (vials, containers)
+- Other
 
 ---
 
 ## Settings
 
+Customize your TrackMe+ experience.
+
+[screenshot placeholder: Settings view]
+
 ### Profile Tab
-Edit your name and email address.
+
+**Account Information:**
+- Edit your **Name**
+- Edit your **Email**
 
 ### Display Tab
-- Dark/Light mode
-- Time format (12/24 hour)
-- Date format
-- Day start time
-- Default view
+
+**Display Preferences:**
+- **Dark Mode** - Toggle dark/light theme
+- **Time Format** - 12-hour (2:30 PM) or 24-hour (14:30)
+- **Date Format** - MM/DD/YYYY, DD/MM/YYYY, or YYYY-MM-DD
+- **Day Start Time** - Define when your "day" begins (useful for night shift)
+- **Default View** - Which page to show on login
 
 ### Notifications Tab
-- Email notifications
-- Dose reminders
-- Low supply alerts
+
+**Notification Settings:**
+- **Email Notifications** - Receive email alerts
+- **Dose Reminders** - Get reminded about scheduled doses
+- **Low Supply Alerts** - Warning when supplies run low
 
 ### Data Tab
-- Data retention settings
-- Export all data
-- Delete account
+
+**Data Management:**
+- **Data Retention** - How long to keep historical data
+- **Export Data** - Download all your data
+- **Delete Account** - Permanently remove your account
 
 ### Billing Tab
+
+**Subscription Management:**
 - View current plan
-- Usage statistics
-- Upgrade/downgrade
+- See usage statistics
+- Upgrade or downgrade plan
 - Cancel subscription
-
-### Support Tab
-- Report issues directly from the app
-- Contact support
-
-### Help Tab
-- Quick start guide
-- Documentation links
 
 ---
 
 ## Subscription Plans
 
-| Feature | Free | Standard | Premium |
-|:--------|:-----|:---------|:--------|
-| Price | $0/mo | $9.99/mo | $19.99/mo |
-| Compounds | 3 | Unlimited | Unlimited |
-| Lab Results | 10/year | 50/year | Unlimited |
-| Data Export | ❌ | ✅ | ✅ |
-| Priority Support | ❌ | ✅ | ✅ |
+### Free Plan - $0/month
+
+- Up to **3 compounds**
+- Up to **10 lab results per year**
+- Basic features
+- Email support
+
+### Standard Plan - $9.99/month
+
+- **Unlimited compounds**
+- Up to **50 lab results per year**
+- All Free features
+- Priority support
+- Data export
+
+### Premium Plan - $19.99/month
+
+- **Unlimited compounds**
+- **Unlimited lab results**
+- All Standard features
+- Advanced analytics
+- Phone support
+
+### Upgrading Your Plan
+
+1. Go to **Settings** > **Billing**
+2. Click **Upgrade**
+3. Select your new plan
+4. Enter payment information
+5. Confirm the upgrade
+
+---
+
+## Features Reference
+
+### AI-Powered Features
+
+| Feature | Description | Available In |
+|---------|-------------|--------------|
+| Smart Compound Lookup | Auto-complete with 47+ compounds | All Plans |
+| Smart Vendor Lookup | Auto-complete with verified vendors | All Plans |
+| Vendor Website Auto-Fill | Auto-populates website when vendor selected | All Plans |
+
+### Dose Timer
+
+The dose timer helps you properly space peptide doses:
+
+- **Preset Times:** 5, 10, 15, or 30 minutes
+- **Custom Time:** Enter any value from 1-120 minutes
+- **Controls:** Start, Pause, Resume, Reset
+- **Alerts:** Audio beep and browser notification
+- **Persistence:** Timer continues even if you navigate away
+
+### Unit Calculations
+
+**For Injectable Vials:**
+```
+Units = (Dose in mg / (Vial total mg / Reconstitution mL)) × 100
+```
+
+Example: 0.5mg dose from 10mg vial with 2mL BAC water
+= (0.5 / (10 / 2)) × 100 = 10 units
+
+**For Drops:**
+```
+Drops = (Dose in mg / Concentration mg/mL) × 20
+```
+
+Example: 5mg dose from 20mg/mL solution
+= (5 / 20) × 20 = 5 drops
+
+### Schedule Email
+
+Email your daily schedule:
+1. Click **Email** on the schedule
+2. Enter recipient email address
+3. Schedule is sent as a formatted email
+
+### Print Schedule
+
+Print your daily schedule:
+1. Click **Print** on the schedule
+2. Use your browser's print dialog
+3. Schedule prints in a clean format
+
+### CSV Export
+
+Export your data to spreadsheet:
+1. Navigate to the relevant section (Doses, Labs, etc.)
+2. Click **Export** or **Download CSV**
+3. Open in Excel, Google Sheets, or any spreadsheet app
+
+### PDF Export
+
+Generate formatted PDF reports:
+1. Navigate to Doses view
+2. Click **Export PDF**
+3. Select date range
+4. Download the formatted report
+
+---
+
+## Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `Enter` | Save/Submit forms |
+| `Escape` | Close modals |
 
 ---
 
 ## Troubleshooting
 
 ### Schedule Not Showing Doses
+
 - Verify compound **Status** is "Active"
-- Check **Frequency** settings
-- Confirm **Start Date** is today or earlier
-- For custom days, verify current day is selected
+- Check the **Frequency** settings
+- Confirm **Start Date** is on or before today
+- For custom days, verify the current day is selected
 
 ### Timer Notification Not Working
-1. Click 🔔 button to enable notifications
-2. Allow when prompted by browser
-3. Check system notification settings
+
+1. Click the 🔔 button to enable notifications
+2. Allow notifications when prompted by browser
+3. Ensure browser notifications are not blocked system-wide
 
 ### Data Not Syncing
-1. Check internet connection
+
+1. Check your internet connection
 2. Refresh the page
-3. Log out and back in
-4. Clear browser cache
+3. Log out and log back in
+4. Clear browser cache if issues persist
 
 ---
 
 ## Support
 
-- **Email:** [support@hamiltonsweb.com](mailto:support@hamiltonsweb.com)
-- **In-App:** Settings → Support → Report an Issue
+For help with TrackMe+:
+
+- **Email:** support@hamiltonsweb.com
+- **Documentation:** This manual
+- **Billing Issues:** Settings > Billing
 
 ---
 
-[Back to Quick Start]({% link quick-start.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Back to Home]({% link index.md %}){: .btn .fs-5 .mb-4 .mb-md-0 }
+*Last updated: January 2026*
+*Version: 2.43.1*
