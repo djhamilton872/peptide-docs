@@ -1,6 +1,6 @@
 # TrackMe+ User Manual
 
-**Version:** 2.43.1
+**Version:** 2.45.0
 **URL:** https://trackmeplus.com
 
 ---
@@ -406,11 +406,18 @@ The system allows one weight entry per day. If you log weight for a date that al
 
 ## Lab Results
 
-Track your lab tests and monitor biomarkers over time.
+Track your lab tests, monitor biomarkers, and visualize trends over time.
 
-[screenshot placeholder: Lab Results view]
+### Views
 
-### Adding Lab Results
+The Lab Results page has two views, toggled by the **Results** and **Trends** buttons:
+
+| View | Description |
+|------|-------------|
+| **Results** | Table of all lab results with filters |
+| **Trends** | Line chart showing test values over time |
+
+### Adding Lab Results Manually
 
 1. Click **Add Lab Result**
 2. Enter the **Test Date**
@@ -418,18 +425,88 @@ Track your lab tests and monitor biomarkers over time.
 4. Enter the **Result Value**
 5. Enter the **Unit** (e.g., "ng/mL", "%")
 6. Optionally add:
-   - **Reference Range** - Normal range for comparison
+   - **Reference Range** - Normal range for comparison (e.g., "0-100")
    - **Lab Name** - Where the test was performed
    - **Notes** - Observations or context
 7. Click **Save Lab Result**
 
+### Import from Screenshot (Premium)
+
+Premium subscribers can import lab results directly from screenshots using AI-powered OCR.
+
+**How to Use:**
+1. Click **Import from Screenshot** (camera icon button)
+2. Upload a PNG or JPG image of your lab results
+3. The AI analyzes the image and extracts test data
+4. Review the extracted results in the preview
+5. Click **Import** to save the results
+
+**What Gets Extracted:**
+- Test names
+- Result values
+- Units
+- Reference ranges (when visible)
+
+**Tips for Best Results:**
+- Use clear, well-lit screenshots
+- Include the full results table in the image
+- Crop out unnecessary headers/footers
+- Standard lab report formats work best
+
+**Limits:**
+- 10 imports per month (Premium plan)
+- Usage resets on the 1st of each month
+
+### Status Filters
+
+Filter your lab results by status using the buttons at the top:
+
+| Filter | Color | Description |
+|--------|-------|-------------|
+| **All** | Blue | Shows all results |
+| **Normal** | Gray | Results within reference range |
+| **Flagged** | Gray | User-flagged results (coming soon) |
+| **Abnormal** | Gray | Results outside reference range |
+
+The count badge on each button shows how many results match that filter.
+
+**How Status is Determined:**
+- Results with reference ranges are automatically categorized
+- Values within range = Normal
+- Values outside range = Abnormal
+- Results without reference ranges are not categorized
+
+### Lab Trend Charts
+
+Visualize how your test results change over time.
+
+**Accessing Trends:**
+1. Click the **Trends** button (chart icon) in the Lab Results view
+2. Select a test from the dropdown menu
+3. View the line chart showing your values over time
+
+**Chart Features:**
+- **Line graph** with data points for each result
+- **Reference range** displayed above the chart (e.g., "Reference Range: 0 - 100")
+- **Date axis** showing the time period covered
+- **Stats panel** showing:
+  - Latest value
+  - Minimum value
+  - Maximum value
+  - Number of data points
+
+**Tips:**
+- You need at least 2 results for a test to see a trend
+- Tests are sorted alphabetically in the dropdown
+- The chart auto-scales to fit your data range
+
 ### Lab Result Limits by Plan
 
-| Plan | Annual Lab Results |
-|------|-------------------|
-| Free | 10 per year |
-| Standard | 50 per year |
-| Premium | Unlimited |
+| Plan | Annual Lab Results | OCR Imports |
+|------|-------------------|-------------|
+| Free | 10 per year | Not available |
+| Standard | 50 per year | Not available |
+| Premium | Unlimited | 10 per month |
 
 ---
 
@@ -719,4 +796,4 @@ For help with TrackMe+:
 ---
 
 *Last updated: January 2026*
-*Version: 2.43.1*
+*Version: 2.45.0*
