@@ -1,6 +1,6 @@
 # TrackMe+ User Manual
 
-**Version:** 2.45.0
+**Version:** 2.46.0
 **URL:** https://trackmeplus.com
 
 ---
@@ -432,30 +432,30 @@ The Lab Results page has two views, toggled by the **Results** and **Trends** bu
 
 ### Import from Screenshot (Premium)
 
-Premium subscribers can import lab results directly from screenshots using AI-powered OCR.
+Don't want to type in all your lab results by hand? Just take a photo! Premium members can snap a picture of their lab results and the app will read them automatically.
 
 **How to Use:**
-1. Click **Import from Screenshot** (camera icon button)
-2. Upload a PNG or JPG image of your lab results
-3. The AI analyzes the image and extracts test data
-4. Review the extracted results in the preview
-5. Click **Import** to save the results
+1. Click the purple **Import from Screenshot** button
+2. Take a photo of your lab results (or use a screenshot from your patient portal)
+3. Upload the photo
+4. Wait a few seconds while the app reads your results
+5. Check that everything looks right in the preview
+6. Click **Import** to save
 
-**What Gets Extracted:**
-- Test names
-- Result values
-- Units
-- Reference ranges (when visible)
+**Tips for Good Photos:**
+- Make sure the text is clear and readable (not blurry)
+- Get the whole results table in the photo
+- Good lighting helps!
+- Photos from your phone work great
 
-**Tips for Best Results:**
-- Use clear, well-lit screenshots
-- Include the full results table in the image
-- Crop out unnecessary headers/footers
-- Standard lab report formats work best
+**What the App Can Read:**
+- Test names (like "Testosterone", "A1C", "Cholesterol")
+- Your result numbers
+- The normal range (if it's shown on your report)
 
 **Limits:**
-- 10 imports per month (Premium plan)
-- Usage resets on the 1st of each month
+- Premium members get 10 photo imports per month
+- Your count resets on the 1st of each month
 
 ### Status Filters
 
@@ -600,6 +600,33 @@ Track your peptide-related supplies and inventory.
 - Sharps Container
 - Storage (vials, containers)
 - Other
+
+### Import from Screenshot (Premium)
+
+Just bought supplies? Snap a photo of your receipt or invoice and the app will add them automatically!
+
+**How to Use:**
+1. Click the purple **Import from Screenshot** button
+2. Take a photo of your receipt, invoice, or Amazon order
+3. Upload the photo
+4. Wait a few seconds while the app reads your items
+5. Check that everything looks right
+6. Click **Import** to save
+
+**What the App Can Read:**
+- Product names
+- Quantities
+- Prices
+- Vendor/seller name (when shown)
+
+**Tips:**
+- Amazon order confirmations work great
+- Pharmacy receipts work too
+- Make sure the text is readable
+
+**Limits:**
+- Premium members get 10 photo imports per month
+- This is separate from your Lab import limit
 
 ---
 
@@ -796,4 +823,4 @@ For help with TrackMe+:
 ---
 
 *Last updated: January 2026*
-*Version: 2.45.0*
+*Version: 2.46.0*
