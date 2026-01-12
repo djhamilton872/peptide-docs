@@ -1,5 +1,5 @@
-title: Peptide Track+ Documentation
-description: User guide and documentation for Peptide Track+
+title: TrackMe+ Documentation
+description: User guide and documentation for TrackMe+
 remote_theme: just-the-docs/just-the-docs
 
 url: https://docs.hamiltonsweb.com
@@ -24,7 +24,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Footer
-footer_content: "Copyright &copy; 2025 Peptide Track+. All rights reserved."
+footer_content: "Copyright &copy; 2025-2026 TrackMe+. All rights reserved."
 
 # Color scheme
 color_scheme: light
