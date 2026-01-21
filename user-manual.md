@@ -1,6 +1,6 @@
 # TrackMe+ User Manual
 
-**Version:** 2.61.1
+**Version:** 2.62.0
 **URL:** https://trackmeplus.com
 
 ---
@@ -9,7 +9,7 @@
 
 1. [Getting Started](#getting-started)
 2. [Dashboard](#dashboard)
-3. [Compounds](#compounds)
+3. [Medications](#medications)
 4. [Doses](#doses)
 5. [Weight Tracking](#weight-tracking)
 6. [Lab Results](#lab-results)
@@ -50,14 +50,14 @@ If you forget your password:
 
 ## AI Smart Lookup (New in v2.42+)
 
-TrackMe+ includes intelligent auto-complete that helps you enter compound and vendor names accurately.
+TrackMe+ includes intelligent auto-complete that helps you enter medication and vendor names accurately.
 
 ### How It Works
 
-When adding a new compound:
+When adding a new medication:
 
-1. **Compound Name Field** - Start typing and suggestions appear
-   - Suggestions come from our master database of 47+ compounds
+1. **Medication Name Field** - Start typing and suggestions appear
+   - Suggestions come from our master database of 47+ medications
    - Shows match confidence (e.g., "95% match")
    - Displays category (GLP-1, Peptide, Hormone, etc.)
    - Click a suggestion to auto-fill
@@ -90,33 +90,33 @@ The Dashboard is your home screen, providing an overview of your peptide trackin
 
 - **Welcome Message** - Personalized greeting with your name
 - **Stats Cards** - Quick metrics including:
-  - Total Compounds
+  - Total Medications
   - Total Doses Logged
   - This Week's Doses
-  - Total Spent on Compounds
+  - Total Spent on Medications
 - **Today's Schedule** - Your doses scheduled for today
-- **Usage Widget** - Shows your plan limits (compounds, lab results)
+- **Usage Widget** - Shows your plan limits (medications, lab results)
 - **Dose Timer** - Timer for spacing doses
 - **Recent Activity** - Your 5 most recent completed doses
 
 ### Today's Schedule Widget
 
-The schedule shows all doses due today based on your compound settings:
+The schedule shows all doses due today based on your medication settings:
 
 - **Time** - When the dose is scheduled
-- **Compound** - Name of the peptide
+- **Medication** - Name of the peptide
 - **Type** - Shows both form and route, e.g., "Vial (Injection)", "Drops (Sublingual)", "Pills (Oral)"
 - **Units** - Calculated injection units (for vials)
 - **Dose** - Amount and unit (e.g., "5 mg")
 - **Done** - Checkbox to mark as complete (separate checkbox for each scheduled dose time)
 
 **Multi-Dose Support:**
-If a compound is scheduled multiple times per day, each dose time gets its own checkbox. For example, a compound taken twice daily at 8 AM and 8 PM will show two separate rows, each with its own Done checkbox.
+If a medication is scheduled multiple times per day, each dose time gets its own checkbox. For example, a medication taken twice daily at 8 AM and 8 PM will show two separate rows, each with its own Done checkbox.
 
 **Future Dates:**
 - You can view future dates using the date picker
 - Future doses are shown but cannot be marked complete until that day arrives
-- Compounds with future start dates show "starts in X days"
+- Medications with future start dates show "starts in X days"
 
 **Actions:**
 - Click the **date picker** to view other days
@@ -125,18 +125,18 @@ If a compound is scheduled multiple times per day, each dose time gets its own c
 
 ---
 
-## Compounds
+## Medications
 
-Manage all your peptide compounds in one place.
+Manage all your medications in one place.
 
-[screenshot placeholder: Compounds list view]
+[screenshot placeholder: Medications list view]
 
-### Adding a Compound
+### Adding a Medication
 
-1. Click **Add Compound**
+1. Click **Add Medication**
 
 **Smart Auto-Complete:**
-As you type the compound name, suggestions will appear from our database. Select a suggestion to ensure consistent naming and get helpful defaults like typical dosing ranges. The same applies to the Vendor Name field - select a vendor to auto-fill their website.
+As you type the medication name, suggestions will appear from our database. Select a suggestion to ensure consistent naming and get helpful defaults like typical dosing ranges. The same applies to the Vendor Name field - select a vendor to auto-fill their website.
 
 2. Fill in the required fields:
    - **Name** - e.g., "Semaglutide"
@@ -151,16 +151,16 @@ As you type the compound name, suggestions will appear from our database. Select
    - **Quantity** - Vial size (e.g., "10 mg")
    - **Reconstitution** - mL of BAC water added (for lyophilized peptides)
    - **Concentration** - For drops (e.g., "20mg/mL")
-   - **Start Date** - When you began (or will begin) the compound
-   - **Cycle Duration** - For cycling compounds
+   - **Start Date** - When you began (or will begin) the medication
+   - **Cycle Duration** - For cycling medications
    - **Vendor** - Where you purchased it
    - **Cost** - Price paid
    - **Vials on Hand** - How many vials you have
    - **Notes** - Any additional information
 
-4. Click **Save Compound**
+4. Click **Save Medication**
 
-### Compound Types (Forms)
+### Medication Types (Forms)
 
 | Form | Route | Description | Unit Calculation |
 |------|-------|-------------|------------------|
@@ -171,29 +171,29 @@ As you type the compound name, suggestions will appear from our database. Select
 | **Powder** | Varies | Raw powder | N/A |
 | **Cream** | Topical | Topical cream | N/A |
 
-### Compound Status
+### Medication Status
 
-Each compound has a status that controls whether it appears on your dosing schedule:
+Each medication has a status that controls whether it appears on your dosing schedule:
 
 | Status | Badge Color | On Schedule? | Use When |
 |--------|-------------|--------------|----------|
-| **Active** | Green | Yes | Currently taking this compound |
+| **Active** | Green | Yes | Currently taking this medication |
 | **On Hold** | Orange | No | Have it, waiting to start |
-| **Completed** | Gray | No | Finished with this compound |
+| **Completed** | Gray | No | Finished with this medication |
 
-**On Hold** is perfect for compounds you've purchased but aren't ready to start yet - for example, if you're waiting to finish your current supply of a similar compound first.
+**On Hold** is perfect for medications you've purchased but aren't ready to start yet - for example, if you're waiting to finish your current supply of a similar medication first.
 
 To change status:
-1. Go to **Compounds**
-2. Click **Edit** on the compound
+1. Go to **Medications**
+2. Click **Edit** on the medication
 3. Select the new status from the dropdown
 4. Click **Save**
 
-You can filter the compound list by status using the filter buttons at the top of the Compounds page.
+You can filter the medication list by status using the filter buttons at the top of the Medications page.
 
 ### Pre-Mixed (Oil-Based) Vials
 
-For pre-constituted injectable compounds like Testosterone Cypionate, Deca, or other oil-based medications:
+For pre-constituted injectable medications like Testosterone Cypionate, Deca, or other oil-based medications:
 
 1. Select **Vial (Injectable)** as the Form
 2. Check the **Pre-mixed (oil-based, like Testosterone)** checkbox
@@ -203,9 +203,9 @@ For pre-constituted injectable compounds like Testosterone Cypionate, Deca, or o
 
 The app will correctly calculate your doses and days supply based on the vial size and your dosing schedule.
 
-### Compound Grouping (Variants)
+### Medication Grouping (Variants)
 
-When you have multiple vials of the same compound from different vendors or in different sizes, you can group them together:
+When you have multiple vials of the same medication from different vendors or in different sizes, you can group them together:
 
 **When to Use:**
 - Multiple vials of BPC-157 from different vendors
@@ -213,12 +213,12 @@ When you have multiple vials of the same compound from different vendors or in d
 - Tracking which vial you're currently using
 
 **How to Enable:**
-1. When adding/editing a compound, you'll see a **Compound Group** field
-2. Enter the base compound name (e.g., "BPC-157")
-3. Compounds with the same group name are displayed together
+1. When adding/editing a medication, you'll see a **Medication Group** field
+2. Enter the base medication name (e.g., "BPC-157")
+3. Medications with the same group name are displayed together
 
 **Setting the Active Vial:**
-1. Click on a grouped compound card to expand it
+1. Click on a grouped medication card to expand it
 2. Click **Set Active** on the vial you're currently using
 3. Only the active vial appears on your dosing schedule
 
@@ -229,16 +229,16 @@ When you have multiple vials of the same compound from different vendors or in d
 
 ### Future Start Dates
 
-You can set a start date in the future for compounds you haven't started yet:
+You can set a start date in the future for medications you haven't started yet:
 
 1. Enter a future date in the **Start Date** field
-2. The compound will show "starts in X days" on the dashboard
-3. The compound will NOT appear on the schedule until the start date arrives
+2. The medication will show "starts in X days" on the dashboard
+3. The medication will NOT appear on the schedule until the start date arrives
 4. Once the start date arrives, doses automatically appear on your schedule
 
 ### Inventory Display
 
-Each compound card shows:
+Each medication card shows:
 - **Doses remaining** - Approximate number of doses left (e.g., "~20 doses")
 - **Days supply** - How many days until you run out (e.g., "~140 days")
 
@@ -254,14 +254,14 @@ Both values are displayed: "~20 doses / ~140 days"
 - **Weekly** - Once per week
 - **Custom Days** - Select specific days of the week
 
-### Editing a Compound
+### Editing a Medication
 
-1. Find the compound in the list
+1. Find the medication in the list
 2. Click the **Edit** button
 3. Make your changes
-4. Click **Save Compound**
+4. Click **Save Medication**
 
-### Deleting a Compound
+### Deleting a Medication
 
 1. Click the **Delete** button
 2. Confirm the deletion
@@ -281,14 +281,14 @@ Log and track all your dose administrations.
 2. The dose is automatically logged with the current time
 
 **Multi-Dose Per Day:**
-If a compound is scheduled multiple times per day (e.g., Twice Daily at 8 AM and 8 PM), each dose time appears as a separate row with its own checkbox. This allows you to:
+If a medication is scheduled multiple times per day (e.g., Twice Daily at 8 AM and 8 PM), each dose time appears as a separate row with its own checkbox. This allows you to:
 - Mark each dose individually as complete
 - Track exactly which doses you've taken
 - See "Dose 1", "Dose 2", etc. for count-based matching
 
 **From the Doses Tab:**
 1. Click **Add Dose**
-2. Select the **Compound**
+2. Select the **Medication**
 3. Enter the **Date** and **Time**
 4. Enter the **Dose Amount** and **Unit**
 5. Optionally add:
@@ -520,7 +520,7 @@ Track spending on your peptide therapy.
 
 1. Click **Add Budget Entry**
 2. Select the **Category**:
-   - Compounds
+   - Medications
    - Supplies
    - Lab Tests
    - Consultations
@@ -551,7 +551,7 @@ Tired of typing in every purchase? Just snap a photo of your receipt!
 7. Click **Import** to save
 
 **What the App Can Read:**
-- Peptides and compounds you purchased
+- Peptides and medications you purchased
 - Medical supplies (syringes, BAC water, etc.)
 - Shipping costs
 - Lab test fees
@@ -618,7 +618,7 @@ Store important details about each supplier:
 
 ### Vendor Auto-Fill
 
-When adding a compound, typing in the Vendor Name field shows suggestions from our verified vendor database. Selecting a vendor automatically populates:
+When adding a medication, typing in the Vendor Name field shows suggestions from our verified vendor database. Selecting a vendor automatically populates:
 - Vendor Name (standardized spelling)
 - Vendor Website (if available in our database)
 
@@ -725,7 +725,7 @@ Customize your TrackMe+ experience.
 
 **Subscription Management:**
 - View current plan and status
-- See usage statistics (compounds used, lab results used)
+- See usage statistics (medications used, lab results used)
 - Upgrade or downgrade plan
 - Switch between Monthly and Annual billing
 - Cancel subscription
@@ -769,14 +769,14 @@ To switch billing cycles:
 
 ### Free Plan - $0/month
 
-- Up to **3 compounds**
+- Up to **3 medications**
 - Up to **10 lab results per year**
 - Basic features
 - Email support
 
 ### Standard Plan - $9.99/month or $99.99/year
 
-- **Unlimited compounds**
+- **Unlimited medications**
 - Up to **50 lab results per year**
 - All Free features
 - Priority support
@@ -784,7 +784,7 @@ To switch billing cycles:
 
 ### Premium Plan - $19.99/month or $199.99/year
 
-- **Unlimited compounds**
+- **Unlimited medications**
 - **Unlimited lab results**
 - All Standard features
 - **AI-Powered OCR** - Import labs and receipts from photos
@@ -844,7 +844,7 @@ TrackMe+ works great on your phone as a Progressive Web App (PWA). Install it fo
 
 ### Offline Capability
 
-The PWA works offline for viewing your schedule and compound info. Changes sync when you reconnect to the internet
+The PWA works offline for viewing your schedule and medication info. Changes sync when you reconnect to the internet
 
 ---
 
@@ -854,7 +854,7 @@ The PWA works offline for viewing your schedule and compound info. Changes sync 
 
 | Feature | Description | Available In |
 |---------|-------------|--------------|
-| Smart Compound Lookup | Auto-complete with 47+ compounds | All Plans |
+| Smart Medication Lookup | Auto-complete with 47+ medications | All Plans |
 | Smart Vendor Lookup | Auto-complete with verified vendors | All Plans |
 | Vendor Website Auto-Fill | Auto-populates website when vendor selected | All Plans |
 
@@ -930,7 +930,7 @@ Generate formatted PDF reports:
 
 ### Schedule Not Showing Doses
 
-- Verify compound **Status** is "Active"
+- Verify medication **Status** is "Active"
 - Check the **Frequency** settings
 - Confirm **Start Date** is on or before today
 - For custom days, verify the current day is selected

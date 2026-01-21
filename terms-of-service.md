@@ -18,7 +18,7 @@ Welcome to TrackMe+ ("Service"), operated by NexHam LLC ("we," "us," or "our"). 
 ## 1. Service Description
 
 TrackMe+ is a personal health and medication tracking application that allows users to:
-- Log and track peptides, supplements, and related compounds
+- Log and track peptides, supplements, and medications
 - Record dosing schedules and history
 - Store lab results
 - Calculate inventory and dosing estimates
@@ -42,7 +42,7 @@ Before starting, modifying, or discontinuing any peptide, supplement, or medicat
 The Service provides dosing calculations and estimates as a convenience feature. **YOU ARE SOLELY RESPONSIBLE FOR:**
 - Verifying all calculations before administration
 - Confirming dosing information with your healthcare provider
-- Understanding the compounds you are using
+- Understanding the medications you are using
 - Ensuring accuracy of data you enter into the Service
 
 ### 2.4 No Liability for Health Outcomes

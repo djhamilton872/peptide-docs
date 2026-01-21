@@ -34,12 +34,12 @@ Yes! TrackMe+ is fully responsive and works on smartphones, tablets, and desktop
 
 ---
 
-## Compounds
+## Medications
 
 <details markdown="block">
 <summary>How do I calculate injection units?</summary>
 
-TrackMe+ calculates units automatically when you set up a vial compound. The formula is:
+TrackMe+ calculates units automatically when you set up a vial medication. The formula is:
 
 ```
 Units = (Dose mg ÷ (Vial mg ÷ BAC water mL)) × 100
@@ -49,11 +49,11 @@ Units = (Dose mg ÷ (Vial mg ÷ BAC water mL)) × 100
 </details>
 
 <details markdown="block">
-<summary>What's the difference between compound types?</summary>
+<summary>What's the difference between medication types?</summary>
 
 | Type | Use For | Unit Calculation |
 |:-----|:--------|:-----------------|
-| Vial | Injectable peptides | Syringe units |
+| Vial | Injectable medications | Syringe units |
 | Drops | Sublingual liquids | Number of drops |
 | Pills | Tablets/capsules | N/A |
 </details>
@@ -61,7 +61,7 @@ Units = (Dose mg ÷ (Vial mg ÷ BAC water mL)) × 100
 <details markdown="block">
 <summary>How do I track multiple time doses?</summary>
 
-When setting up a compound, you can add multiple "Time of Day" entries. Each will appear separately in your daily schedule.
+When setting up a medication, you can add multiple "Time of Day" entries. Each will appear separately in your daily schedule.
 </details>
 
 ---
@@ -97,7 +97,7 @@ The timer helps you space peptide doses properly. Select a preset time (5-30 min
 <details markdown="block">
 <summary>What's included in the free plan?</summary>
 
-- Up to 3 compounds
+- Up to 3 medications
 - 10 lab results per year
 - Basic dashboard
 - Email support
@@ -123,10 +123,10 @@ Yes. Go to **Settings → Billing** and click **Cancel Subscription**. You'll re
 <summary>Why isn't my scheduled dose showing?</summary>
 
 Check that:
-1. Compound **Status** is "Active"
+1. Medication **Status** is "Active"
 2. **Frequency** is set correctly
 3. **Start Date** is today or earlier
-4. For weekly compounds, you're on the right day
+4. For weekly medications, you're on the right day
 </details>
 
 <details markdown="block">

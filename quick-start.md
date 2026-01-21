@@ -27,14 +27,14 @@ You're now logged in!
 
 ---
 
-## Step 2: Add Your First Compound
+## Step 2: Add Your First Medication
 {: .d-inline-block }
 
 2 minutes
 {: .label .label-green }
 
-1. Click **Compounds** in the navigation
-2. Click **Add Compound**
+1. Click **Medications** in the navigation
+2. Click **Add Medication**
 3. Fill in the basics:
 
 | Field | Example |
@@ -48,9 +48,9 @@ You're now logged in!
 | Time of Day | 09:00 |
 
 {:style="counter-reset:step-counter 3"}
-4. Click **Save Compound**
+4. Click **Save Medication**
 
-Your compound is now tracking!
+Your medication is now tracking!
 
 ---
 
@@ -62,13 +62,13 @@ Your compound is now tracking!
 
 ### Option A - From Dashboard (Easiest)
 1. Click **Dashboard**
-2. Find your compound in "Today's Schedule"
+2. Find your medication in "Today's Schedule"
 3. Check the **Done** box
 
 ### Option B - Manual Entry
 1. Click **Doses**
 2. Click **Add Dose**
-3. Select compound, enter date/time/amount
+3. Select medication, enter date/time/amount
 4. Click **Save Dose**
 
 ---
@@ -90,7 +90,7 @@ Your compound is now tracking!
 
 ### What's Next?
 
-- **Add more compounds** as needed
+- **Add more medications** as needed
 - **Log doses daily** to build your history
 - **Track lab results** to monitor progress
 - **Use the dose timer** to space injections
@@ -111,7 +111,7 @@ Your compound is now tracking!
 
 ## Unit Calculation Reference
 
-For injectable vials, Peptide Track+ automatically calculates syringe units:
+For injectable vials, TrackMe+ automatically calculates syringe units:
 
 ```
 Units = (Dose mg ÷ (Vial mg ÷ BAC water mL)) × 100

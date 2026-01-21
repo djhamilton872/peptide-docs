@@ -87,7 +87,7 @@ Peptides aren't the only thing that needs tracking. If you're managing a full he
 - 💉 Injections (peptides, TRT, insulin)
 - 💊 Pills (supplements, prescriptions)
 - 🩹 Patches (hormone, nicotine)
-- 💧 Drops (sublingual compounds)
+- 💧 Drops (sublingual medications)
 - 🧪 Powders (creatine, pre-workout)
 
 You need a system that handles all of it. [TrackMe+](https://trackmeplus.com) tracks every form type with the right calculator for each.

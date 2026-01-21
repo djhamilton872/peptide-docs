@@ -21,7 +21,7 @@ NexHam LLC ("we," "us," or "our") operates TrackMe+ ("Service"). This Privacy Po
 - Name (optional)
 
 ### 1.2 Health and Tracking Data
-- Compound/supplement information you enter
+- Medication/supplement information you enter
 - Dosing schedules and logs
 - Lab results you upload or enter
 - Vendor and purchase information
