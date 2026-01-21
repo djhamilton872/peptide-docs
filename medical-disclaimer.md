@@ -7,13 +7,13 @@ nav_order: 8
 # Medical Disclaimer
 
 {: .warning }
-> **IMPORTANT: Please read this disclaimer carefully before using Peptide Tracker.**
+> **IMPORTANT: Please read this disclaimer carefully before using TrackMe+.**
 
 ---
 
 ## Not Medical Advice
 
-Peptide Tracker is a **personal tracking and organizational tool**. It is NOT:
+TrackMe+ is a **personal tracking and organizational tool**. It is NOT:
 - A medical device
 - A source of medical advice
 - A substitute for professional healthcare
@@ -48,7 +48,7 @@ We are NOT responsible for:
 
 ## Your Responsibility
 
-By using Peptide Tracker, you acknowledge that:
+By using TrackMe+, you acknowledge that:
 
 1. **You are solely responsible** for verifying all dosing information
 2. **You understand** this is a tracking tool, not medical advice
@@ -59,7 +59,7 @@ By using Peptide Tracker, you acknowledge that:
 
 ## Limitation of Liability
 
-To the maximum extent permitted by law, Hamilton's Web and Peptide Tracker shall not be liable for any health outcomes, adverse reactions, injuries, or damages resulting from:
+To the maximum extent permitted by law, NexHam LLC and TrackMe+ shall not be liable for any health outcomes, adverse reactions, injuries, or damages resulting from:
 - Use of information from this Service
 - Reliance on calculations or estimates
 - Errors in user-entered data
@@ -76,8 +76,8 @@ To the maximum extent permitted by law, Hamilton's Web and Peptide Tracker shall
 
 ## Acknowledgment
 
-By creating an account and using Peptide Tracker, you confirm that you have read, understood, and agree to this Medical Disclaimer, our [Terms of Service](/terms-of-service), and our [Privacy Policy](/privacy-policy).
+By creating an account and using TrackMe+, you confirm that you have read, understood, and agree to this Medical Disclaimer, our [Terms of Service](/terms-of-service), and our [Privacy Policy](/privacy-policy).
 
 ---
 
-*Last Updated: December 1, 2025*
+*Last Updated: January 21, 2026*

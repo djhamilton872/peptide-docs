@@ -1,19 +1,19 @@
-# Peptide Track+ Documentation Site
+# TrackMe+ Documentation Site
 
-This is the documentation site for Peptide Track+, built with Jekyll and the Just the Docs theme.
+This is the documentation site for TrackMe+, built with Jekyll and the Just the Docs theme.
 
 ## Setup
 
 ### Option 1: GitHub Pages (Recommended)
 
-1. Create a new GitHub repository called `peptide-docs`
+1. Create a new GitHub repository called `trackmeplus-docs`
 2. Push this `docs-site` folder contents to the repo
 3. Go to repo Settings → Pages
 4. Set Source to "Deploy from a branch"
 5. Select `main` branch and `/ (root)` folder
 6. Save
 
-Your docs will be live at: `https://yourusername.github.io/peptide-docs/`
+Your docs will be live at: `https://docs.trackmeplus.com/`
 
 ### Option 2: Local Development
 
@@ -23,7 +23,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Open http://localhost:4000/peptide-docs/
+Open http://localhost:4000/
 
 ## Structure
 
@@ -43,8 +43,8 @@ docs-site/
 ### Update Links
 
 Edit `_config.yml`:
-- `url` - Your GitHub Pages URL
-- `baseurl` - Repository name (e.g., `/peptide-docs`)
+- `url` - Your site URL (https://docs.trackmeplus.com)
+- `baseurl` - Leave empty for root
 - `aux_links` - Top navigation links
 
 ### Add Pages
@@ -73,4 +73,4 @@ Features:
 
 ## License
 
-Copyright © 2025 Peptide Track+
+Copyright © 2025-2026 NexHam LLC. All rights reserved.

@@ -2,14 +2,14 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Peptide Track+ - Your complete peptide tracking solution"
+description: "TrackMe+ - Your complete health and medication tracking solution"
 permalink: /
 ---
 
-# Peptide Track+ Documentation
+# TrackMe+ Documentation
 {: .fs-9 }
 
-Your complete guide to tracking peptides, supplements, and health data.
+Your complete guide to tracking medications, supplements, and health data.
 {: .fs-6 .fw-300 }
 
 [Get Started]({% link quick-start.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -17,18 +17,19 @@ Your complete guide to tracking peptides, supplements, and health data.
 
 ---
 
-## What is Peptide Track+?
+## What is TrackMe+?
 
-Peptide Track+ is a comprehensive web application for tracking your peptide therapy, supplements, and related health data. 
+TrackMe+ is a comprehensive web application for tracking your medications, peptides, supplements, and related health data. Born from peptide tracking, built for everything.
 
 ### Key Features
 
-- **Compound Management** - Track multiple peptides with dosing schedules
+- **Compound Management** - Track multiple medications and supplements with dosing schedules
 - **Dose Logging** - Log doses with one click from your daily schedule
 - **Unit Calculator** - Automatic syringe unit calculations for injectable vials
-- **Dose Timer** - Timer to properly space peptide doses
+- **Dose Timer** - Timer to properly space doses
 - **Lab Results** - Track biomarkers over time
 - **Budget Tracking** - Monitor your spending
+- **Doctor Printout** - Professional patient health summary for your healthcare provider
 - **Schedule Export** - Print or email your daily schedule
 
 ### Quick Links
@@ -67,4 +68,4 @@ We will notify users in advance of any extended maintenance.
 
 ---
 
-*Peptide Track+ v2.29.x*
+*TrackMe+ v2.61.1*

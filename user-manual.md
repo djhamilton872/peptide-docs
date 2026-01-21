@@ -1,6 +1,6 @@
 # TrackMe+ User Manual
 
-**Version:** 2.52.3
+**Version:** 2.61.1
 **URL:** https://trackmeplus.com
 
 ---

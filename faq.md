@@ -7,7 +7,7 @@ nav_order: 4
 # Frequently Asked Questions
 {: .fs-9 }
 
-Common questions about Peptide Track+
+Common questions about TrackMe+
 {: .fs-6 .fw-300 }
 
 ---
@@ -15,9 +15,9 @@ Common questions about Peptide Track+
 ## General
 
 <details open markdown="block">
-<summary>What is Peptide Track+?</summary>
+<summary>What is TrackMe+?</summary>
 
-Peptide Track+ is a web application for tracking peptide therapy, supplements, and related health data. It helps you manage dosing schedules, calculate injection units, log doses, and track lab results.
+TrackMe+ is a web application for tracking medications, peptides, supplements, and related health data. It helps you manage dosing schedules, calculate injection units, log doses, and track lab results.
 </details>
 
 <details markdown="block">
@@ -29,7 +29,7 @@ Yes. Your data is stored securely with encryption. We never share your personal 
 <details markdown="block">
 <summary>Can I use this on my phone?</summary>
 
-Yes! Peptide Track+ is fully responsive and works on smartphones, tablets, and desktop computers. Just visit [trackmeplus.com](https://trackmeplus.com) in your mobile browser.
+Yes! TrackMe+ is fully responsive and works on smartphones, tablets, and desktop computers. Just visit [trackmeplus.com](https://trackmeplus.com) in your mobile browser.
 </details>
 
 ---
@@ -39,7 +39,7 @@ Yes! Peptide Track+ is fully responsive and works on smartphones, tablets, and d
 <details markdown="block">
 <summary>How do I calculate injection units?</summary>
 
-Peptide Track+ calculates units automatically when you set up a vial compound. The formula is:
+TrackMe+ calculates units automatically when you set up a vial compound. The formula is:
 
 ```
 Units = (Dose mg ÷ (Vial mg ÷ BAC water mL)) × 100
