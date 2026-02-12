@@ -33,7 +33,7 @@ You're in! TrackMe+ automatically detects your device and loads the right versio
 2 minutes
 {: .label .label-green }
 
-1. Click **My Medications** in the navigation
+1. Click **My Medications** in the navigation (labeled **Meds** on mobile)
 2. Click **Add Medication**
 3. Fill in the basics:
 
@@ -84,7 +84,7 @@ Click **Dashboard** to see your stats at a glance: active medications, doses thi
 
 - **Add more medications** as needed
 - **Log doses daily** to build your history
-- **Track lab results** — click **Lab Results** in the nav to start tracking bloodwork
+- **Track lab results** — click **Lab Results** (or **Labs** on mobile) to start tracking bloodwork
 - **Use the dose timer** to space injections
 - **Skip doses** you intentionally miss — keeps your records honest
 
