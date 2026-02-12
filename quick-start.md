@@ -60,16 +60,14 @@ Your medication is now tracking!
 1 minute
 {: .label .label-green }
 
-### Option A - From Dashboard (Easiest)
-1. Click **Dashboard**
-2. Find your medication in "Today's Schedule"
-3. Check the **Done** box
+### From the Today Page (Easiest)
+1. Click **Today** in the navigation
+2. Find your medication in the schedule table
+3. Check the **Done** box — that's it!
 
-### Option B - Manual Entry
-1. Click **Doses**
-2. Click **Add Dose**
-3. Select medication, enter date/time/amount
-4. Click **Save Dose**
+### Need to Log a Past Dose?
+1. On the **Today** page, use the date picker to navigate to the date
+2. Check the **Done** box for the dose you took
 
 ---
 
@@ -79,10 +77,10 @@ Your medication is now tracking!
 30 seconds
 {: .label .label-green }
 
-1. Click **Dashboard**
-2. See "Today's Schedule" widget
+1. Click **Today** in the navigation
+2. See all scheduled doses for the day
 3. Use the date picker to view other days
-4. Click **Print** or **Email** to share
+4. Use the **Notes** column to add context to any dose
 
 ---
 
@@ -92,8 +90,9 @@ Your medication is now tracking!
 
 - **Add more medications** as needed
 - **Log doses daily** to build your history
-- **Track lab results** to monitor progress
+- **Track lab results** to monitor progress (Settings → Labs)
 - **Use the dose timer** to space injections
+- **Skip doses** you intentionally miss — keeps your records clean
 
 ---
 
@@ -102,10 +101,11 @@ Your medication is now tracking!
 
 | Tip | Description |
 |:----|:------------|
-| ✅ Quick logging | Check boxes in Today's Schedule to instantly log doses |
+| ✅ Quick logging | Check the Done box on the Today page to instantly log doses |
+| ⏭️ Skip doses | Use the Skip button to mark doses as intentionally skipped with a reason |
 | ⏱️ Persistent timer | The dose timer continues even if you close your browser |
 | 🔔 Notifications | Enable browser notifications for timer alerts |
-| 📧 Share schedule | Use Print or Email buttons to share with others |
+| 🌙 Dark mode | Toggle dark mode in Settings → Display |
 
 ---
 
@@ -149,7 +149,7 @@ Now you have an app icon on your home screen!
 
 ---
 
-*Updated: January 2026 | v2.88.6*
+*Updated: February 2026 | v3.1.7*
 
 [Full User Manual]({% link user-manual.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Back to Home]({% link index.md %}){: .btn .fs-5 .mb-4 .mb-md-0 }
